@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Cesar_Augusto_Textil.Proveedores(
+CIF_proveedor VARCHAR(3) PRIMARY KEY NOT NULL,
+Nombre_proveedor VARCHAR(30) NOT  NULL,
+Direccion VARCHAR(50)NOT  NULL,
+Codigo_postal INT (4) UNSIGNED NOT  NULL,
+Localidad VARCHAR(30)NOT  NULL,
+Provincia VARCHAR(15)NOT  NULL,
+Telefono INT (9)UNSIGNED NOT  NULL
+)ENGINE=INNODB;

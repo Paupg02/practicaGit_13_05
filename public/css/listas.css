@@ -1,0 +1,28 @@
+#recetas * { 
+list-style:none;
+}
+#recetas li{ 
+line-height:180%;
+}
+#recetas li label{ 
+font-size:15pt;
+}
+#recetas li a{
+color:#222; 
+text-decoration:none;
+}
+#recetas li a:before{ 
+content:"\025b8"; 
+color:#ddd; margin-right:4px;
+}
+#recetas input[name="list"] {
+	position: absolute;
+	left: -1000em;
+	}
+#recetas label:before{ 
+content:"\025b8"; 
+margin-right:4px;
+}
+#recetas input:checked ~ label:before{ content:"\025be";}
+#recetas .interior{display: none;}
+#recetas input:checked ~ ul{display:block;}
